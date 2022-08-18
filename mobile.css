@@ -1,0 +1,26 @@
+/* MOBILE */
+div.widget_m {
+    margin: 10px 0;
+    display: none;
+    overflow: auto;
+}
+
+.menu_panel_m {
+    height: none;
+    margin: 10px 15px 15px 15px;
+    display: none;
+}
+
+.mobile_header {
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+.mobile_menu {
+    display: none;
+}
+

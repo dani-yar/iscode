@@ -1,0 +1,54 @@
+@media (max-width: 1080px) {
+    div.sidebar {
+        display: none;
+    }
+    div.menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+    }
+    div.main {
+        max-width: none;
+        width: auto;
+        position: absolute;
+        top: 0;
+        left: 200px;
+        right: 0;
+        bottom: 0;
+    }
+    div.widget_m, .menu_panel_m {
+        display: flex;
+    }
+    select.filter {
+        margin: 7px 10px 7px 0;
+    }
+    
+}
+
+@media (max-width: 860px) {
+    .container {
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+    div.menu {
+        display: none;
+    }
+    div.main {
+        top: 50px;
+        left: 0;
+        padding: 0 20px;
+    }
+    div.tg_card {
+        display: none;
+    }
+    .mobile_header, .mobile_menu {
+        display: flex;
+    }
+    div.logo {
+        font-size: 22px;
+        margin-left: 20px;
+        padding: 25px 10px;
+    }
+}
